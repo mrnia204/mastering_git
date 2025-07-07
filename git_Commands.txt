@@ -1,0 +1,11 @@
+GIT COMMANDS
+
+>git --version // git versions
+>git config --global user.name 'YourGitName'  // config your name
+>git config --global user.email 'YourEmail'  // config your email
+>git init // to create respository
+>git config --global init.defaultBranch <name> // put main or master to config
+>git status // to check the status
+>git add <fileName> // to add one file
+>git commit -m 'Add readme.md file' // to commite a file 
+>git add ./  //tells git to add all the files either deleted, added, modified
