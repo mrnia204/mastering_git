@@ -9,3 +9,18 @@ GIT COMMANDS
 >git add <fileName> // to add one file
 >git commit -m 'Add readme.md file' // to commite a file 
 >git add ./  //tells git to add all the files either deleted, added, modified
+>git log // git histories
+>git checkout <id> // to restore back to the previous version
+>git branch -M main // to change from master to main. 
+>git remote add origin <repo link> // add remote link from git repository quick setup | you can add many 
+>git push -u origin main // to push to the repository
+
+
+## GIT BRANCH
+>git branch <branch-name> // this will create new branch
+>git checkout <branch-name> // this will check you to the branch you want to go 
+>git checkout main // to go to main branch
+
+#short cut. 
+>git checkout -b <branch-name> 
+>git <new-branch-name> <source-branch-name> // Here you don't need to checkout. You create new branch from the source 
